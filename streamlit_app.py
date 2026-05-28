@@ -5,7 +5,7 @@ from pathlib import Path
 
 import streamlit as st
 
-from server import process_docx
+from docx_processor import process_docx
 
 
 st.set_page_config(
